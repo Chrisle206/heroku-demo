@@ -1,25 +1,24 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "jest": "^27.4.7"
-  },
   "name": "heroku-demo",
-  "description": "",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chrisle206/heroku-demo.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chrisle206/heroku-demo/issues"
   },
-  "homepage": "https://github.com/Chrisle206/heroku-demo#readme"
+  "homepage": "https://github.com/Chrisle206/heroku-demo#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
